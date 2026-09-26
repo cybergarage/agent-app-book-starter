@@ -1,8 +1,8 @@
 # 答え合わせ
 
-`week-1-report.txt`と`week-2-report.txt`は著者作成の完成見本です。AIの実際の応答ではありません。文章の一致より、集計値、元資料、未確認事項の扱いを比べてください。
+`week-1-report.txt`と`week-2-report.txt`は著者作成の完成見本です。CodexやClaude Codeの実際の応答ではありません。文章の一致より、集計値、元資料、未確認事項の扱いを比べてください。
 
-`incorrect-report.txt`には意図的な誤りがあります。間違いを見つけて元資料で確かめる練習に使います。このフォルダは、AIに指定する`weekly-report/`の外に置いてください。
+`incorrect-report.txt`には意図的な誤りがあります。間違いを見つけて元資料で確かめる練習に使います。このフォルダは、CodexやClaude Codeに指定する`weekly-report/`の外に置いてください。
 
 | 項目 | 1週目 | 2週目 |
 | --- | ---: | ---: |
