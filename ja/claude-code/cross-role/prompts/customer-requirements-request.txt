@@ -1,0 +1,1 @@
+input/customer-request.txt と input/technical-brief.txt を読み、技術チームへ渡す一枚の要件メモを output/requirements-note.txt に保存してください。目的、利用者、必要な動き、前提、未確認事項を分けてください。顧客の要望を実装決定や納期確約へ変えないでください。

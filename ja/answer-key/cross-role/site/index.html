@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>チーム引き継ぎボード｜説明用試作</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #30291f; background: #fffaf0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.7; }
+    header, main, footer { max-width: 980px; margin: auto; padding: 24px; }
+    .hero { padding: 48px 24px; background: #f8eac9; border-bottom: 3px solid #d6b55f; }
+    .hero > div { max-width: 980px; margin: auto; }
+    h1 { font-size: clamp(2rem, 5vw, 3.3rem); line-height: 1.25; margin: 0 0 12px; }
+    h2 { font-size: 1.6rem; margin-top: 2.4rem; }
+    .note { background: white; border-left: 5px solid #ae8136; padding: 16px 20px; }
+    .steps, .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+    article { background: white; border: 1px solid #d6c7a5; border-radius: 14px; padding: 18px; }
+    article h3 { margin-top: 0; }
+    .tag { display: inline-block; padding: 2px 10px; border-radius: 99px; background: #f4db94; font-size: .9rem; }
+    footer { border-top: 1px solid #d6c7a5; color: #5f5545; }
+  </style>
+</head>
+<body>
+  <div class="hero"><div>
+    <p class="tag">説明用の架空試作</p>
+    <h1>引き継ぎの「決まった」と「まだ」を一枚に。</h1>
+    <p>チーム引き継ぎボードは、決定事項、確認待ち、資料の場所を整理するための案です。</p>
+  </div></div>
+  <main>
+    <section aria-labelledby="problem"><h2 id="problem">どんな困りごとから生まれたか</h2>
+      <p>担当が変わるたびに同じ背景を説明し、前回決めたことを探し直す。少人数の聞き取りで挙がった困りごとをもとに、情報の渡し方を試します。</p>
+    </section>
+    <section aria-labelledby="how"><h2 id="how">使い方の三段階</h2><div class="steps">
+      <article><h3>1. 決定を記録</h3><p>会議で確定したことと根拠となる資料を残します。</p></article>
+      <article><h3>2. 未決定を分ける</h3><p>担当や期限が決まっていない項目を明示します。</p></article>
+      <article><h3>3. 次へ渡す</h3><p>次に確認する人と資料の場所を一枚で示します。</p></article>
+    </div></section>
+    <section aria-labelledby="sample"><h2 id="sample">引き継ぎカードの見本</h2><div class="cards">
+      <article><span class="tag">決定</span><h3>説明画面の試作</h3><p>ローカルで表示する画面を作成。外部公開はしません。</p></article>
+      <article><span class="tag">確認待ち</span><h3>料金と提供時期</h3><p>担当部署へ確認します。顧客への約束はまだできません。</p></article>
+      <article><span class="tag">確認待ち</span><h3>顧客情報の保存先</h3><p>技術・情報管理担当と条件を確かめます。</p></article>
+    </div></section>
+    <section aria-labelledby="limits"><h2 id="limits">実運用前に確かめること</h2>
+      <p class="note">この画面は架空データの説明用試作です。ログイン、共同編集、通知、外部サービスとの同期は備えていません。料金、保存先、提供時期も未決定です。</p>
+    </section>
+  </main>
+  <footer><p>チーム引き継ぎボード（仮称）｜書籍用の架空教材</p></footer>
+</body>
+</html>

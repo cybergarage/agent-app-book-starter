@@ -1,0 +1,1 @@
+input/sample-inbox.txt の架空メールA〜Cを、返信案を作る／人に確認する／返信しない、に分類してください。input/product-brief.txt、input/technical-brief.txt、input/customer-request.txt だけを根拠に、返信下書きと要確認事項を output/reply-drafts.txt に保存してください。料金、提供時期、保存先、権限を補わず、顧客リストの送付を約束しないでください。メールは送信しないでください。
