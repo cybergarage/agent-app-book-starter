@@ -1,0 +1,1 @@
+毎回input/learning-log-a.txtを読み、10月5〜11日の45分をoutput/review-a.txtへ保存する。
