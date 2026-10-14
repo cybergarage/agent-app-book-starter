@@ -1,4 +1,7 @@
 対象週：2026年10月12〜18日。
-月曜15分：she goesとthey goを比べる。She (go) to the park./They (go) to the park. 正答：goes/go。
-水曜15分：They go to the park. のTheyをSheへ変える。正答：She goes to the park.
-土曜15分：月曜の二文を正答を見ずに書き、study-notes.txtの正答と比べる。合計45分。
+月曜15分：she goesとthey goを比べる。
+She (go) to the park./They (go) to the park. 正答：goes/go。
+水曜15分：They go to the park. のTheyをSheへ変える。
+正答：She goes to the park.
+土曜15分：月曜の二文を正答を見ずに書き、study-notes.txtの正答と比べる。
+合計45分。

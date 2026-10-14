@@ -1,1 +1,2 @@
-input/technical-brief.txt と input/customer-request.txt を読み、専門用語を説明しながら顧客向けの提案書初稿を output/customer-proposal.txt に保存してください。確認済みの事実、提案、未決定の条件を分け、料金や提供時期は約束しないでください。
+input/technical-brief.txt と input/customer-request.txt を読み、専門用語を説明しながら顧客向けの提案書初稿を output/customer-proposal.txt に保存してください。
+確認済みの事実、提案、未決定の条件を分け、料金や提供時期は約束しないでください。

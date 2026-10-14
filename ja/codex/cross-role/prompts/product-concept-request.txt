@@ -1,1 +1,3 @@
-input/customer-voices.txt と input/research-notes.txt を読み、顧客の困りごとから新商品の仮案を作ってください。声ごとに根拠を示し、課題、解決案、まだ分からないこと、小さな検証方法を分けて output/product-concept.txt に保存してください。市場規模、価格、提供時期は推測で決めないでください。
+input/customer-voices.txt と input/research-notes.txt を読み、顧客の困りごとから新商品の仮案を作ってください。
+声ごとに根拠を示し、課題、解決案、まだ分からないこと、小さな検証方法を分けて output/product-concept.txt に保存してください。
+市場規模、価格、提供時期は推測で決めないでください。

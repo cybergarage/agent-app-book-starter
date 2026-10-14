@@ -1,1 +1,4 @@
-input/research-notes.txtとinput/customer-voices.txtを読み、企画書の骨子をoutput/plan-outline.txtに保存してください。見出しは課題、対象、解決案、根拠、検証方法、未確認事項とします。社内4人の声を市場全体の割合に変換せず、各主張の出典を示してください。入力資料は変更しないでください。
+input/research-notes.txtとinput/customer-voices.txtを読み、企画書の骨子をoutput/plan-outline.txtに保存してください。
+見出しは課題、対象、解決案、根拠、検証方法、未確認事項とします。
+社内4人の声を市場全体の割合に変換せず、各主張の出典を示してください。
+入力資料は変更しないでください。

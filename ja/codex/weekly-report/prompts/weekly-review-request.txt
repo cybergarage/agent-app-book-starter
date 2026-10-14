@@ -1,1 +1,3 @@
-input/week-1.csv、input/week-1-notes.txt、input/week-2.csv、input/week-2-notes.txtと、output/に保存した二週分の報告を照合し、進捗、残る確認事項、翌週の行動をoutput/weekly-review.txtに保存してください。受注額の差は元のCSVで検算し、原因を推測しないでください。報告が未作成なら、先に週次報告の演習を終えてください。
+input/week-1.csv、input/week-1-notes.txt、input/week-2.csv、input/week-2-notes.txtと、output/に保存した二週分の報告を照合し、進捗、残る確認事項、翌週の行動をoutput/weekly-review.txtに保存してください。
+受注額の差は元のCSVで検算し、原因を推測しないでください。
+報告が未作成なら、先に週次報告の演習を終えてください。
