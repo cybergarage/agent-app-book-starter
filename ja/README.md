@@ -20,29 +20,30 @@ GitHubのページで **Code → Download ZIP** を選び、ZIPファイルを�
 | 演習 | 作業場所・入力 | 依頼文 |
 | --- | --- | --- |
 | 演習01 会議案内 | 本文のメモ | 本文の依頼 |
-| 演習02 資料とルールの保存 | 本文のメモ・専用の練習フォルダ | 本文の依頼 |
-| 演習03 活動メモの要約 | 本文のメモ | 本文の依頼 |
-| 演習04 週次報告 | `{版}/weekly-report/` | `prompts/request-week-1.txt`、`prompts/request-week-2.txt` |
-| 演習05 比較メモ | `{版}/choice-memo/` | `prompts/request.txt` |
-| 演習06 アイデア3案 | 本文のメモ | 本文の依頼 |
-| 演習07 商品企画 | `{版}/cross-role/` | `prompts/product-concept-request.txt` |
-| 演習08 説明サイト | `{版}/cross-role/` | `prompts/explanation-site-request.txt` |
-| 演習09 一通の返信 | 本文のメモ | 本文の依頼 |
-| 演習10 会議後の対応表 | `{版}/meeting-followup/` | `prompts/request.txt` |
-| 演習11 複数メールの返信・保留 | `{版}/cross-role/` | `prompts/email-reply-request.txt` |
-| 演習12 専門説明の書き直し | 本文のメモ | 本文の依頼 |
-| 演習13 顧客向け提案 | `{版}/cross-role/` | `prompts/technical-proposal-request.txt` |
-| 演習14 要件メモ | `{版}/cross-role/` | `prompts/customer-requirements-request.txt` |
-| 演習15 企画書の骨子 | `{版}/cross-role/` | `prompts/research-plan-request.txt` |
-| 演習16 スライド案 | `{版}/cross-role/` | `prompts/slide-story-request.txt` |
-| 演習17 作業メモの一覧化 | 本文のメモ | 本文の依頼 |
-| 演習18 週明けリスト | `{版}/cross-role/` | `prompts/friday-list-request.txt` |
-| 演習19 朝の確認メモ | `{版}/cross-role/` | `prompts/daily-briefing-request.txt` |
-| 演習20 週次振り返り | `{版}/weekly-report/` | `prompts/weekly-review-request.txt` |
-| 演習21 学習課題 | `{版}/cross-role/` | `prompts/career-learning-request.txt` |
-| 演習22 強みの棚卸し | `{版}/cross-role/` | `prompts/strengths-inventory-request.txt` |
+| 演習02 仕事のメモから依頼文を組み立てる | 本文のメモ | 本文の依頼 |
+| 演習03 資料とルールの保存 | 本文のメモ・専用の練習フォルダ | 本文の依頼 |
+| 演習04 活動メモの要約 | 本文のメモ | 本文の依頼 |
+| 演習05 週次報告 | `{版}/weekly-report/` | `prompts/request-week-1.txt`、`prompts/request-week-2.txt` |
+| 演習06 比較メモ | `{版}/choice-memo/` | `prompts/request.txt` |
+| 演習07 アイデア3案 | 本文のメモ | 本文の依頼 |
+| 演習08 商品企画 | `{版}/cross-role/` | `prompts/product-concept-request.txt` |
+| 演習09 説明サイト | `{版}/cross-role/` | `prompts/explanation-site-request.txt` |
+| 演習10 一通の返信 | 本文のメモ | 本文の依頼 |
+| 演習11 会議後の対応表 | `{版}/meeting-followup/` | `prompts/request.txt` |
+| 演習12 複数メールの返信・保留 | `{版}/cross-role/` | `prompts/email-reply-request.txt` |
+| 演習13 専門説明の書き直し | 本文のメモ | 本文の依頼 |
+| 演習14 顧客向け提案 | `{版}/cross-role/` | `prompts/technical-proposal-request.txt` |
+| 演習15 要件メモ | `{版}/cross-role/` | `prompts/customer-requirements-request.txt` |
+| 演習16 企画書の骨子 | `{版}/cross-role/` | `prompts/research-plan-request.txt` |
+| 演習17 スライド案 | `{版}/cross-role/` | `prompts/slide-story-request.txt` |
+| 演習18 作業メモの一覧化 | 本文のメモ | 本文の依頼 |
+| 演習19 週明けリスト | `{版}/cross-role/` | `prompts/friday-list-request.txt` |
+| 演習20 朝の確認メモ | `{版}/cross-role/` | `prompts/daily-briefing-request.txt` |
+| 演習21 週次振り返り | `{版}/weekly-report/` | `prompts/weekly-review-request.txt` |
+| 演習22 学習課題 | `{版}/cross-role/` | `prompts/career-learning-request.txt` |
+| 演習23 強みの棚卸し | `{版}/cross-role/` | `prompts/strengths-inventory-request.txt` |
 
-演習08は07の企画案、演習16は15の骨子、演習20は04の二週分の報告を使います。先に対応する演習を済ませてください。入門2件と基本5件は教材取得なしで進められます。
+演習09は08の企画案、演習17は16の骨子、演習21は05の二週分の報告を使います。先に対応する演習を済ませてください。入門3件と基本5件は教材取得なしで進められます。
 
 ## 個人の文章・制作記録で試す追加練習
 
@@ -50,14 +51,14 @@ GitHubのページで **Code → Download ZIP** を選び、ZIPファイルを�
 
 | 本文の位置 | 入力 | 依頼文 |
 | --- | --- | --- |
-| 演習02 編集ルール | `sample-writing.txt`、`new-note.txt` | `voice-request.txt`、`voice-correction.txt` |
-| 演習12 体験文 | `experience.txt` | `article-request.txt`、`article-correction.txt` |
-| 演習12 長い記事（任意） | `experience.txt` | `article-long-request.txt` |
-| 演習22 強みと次の行動 | `personal-evidence.txt` | `strengths-request.txt`、`strengths-correction.txt` |
-| 演習05 収納用品の比較 | `household-conditions.txt`、`shelves.csv` | `shelf-request.txt`、`shelf-correction.txt` |
-| 演習08 作品紹介ページ | `works.txt` | `gallery-request.txt`、`gallery-correction.txt` |
-| 演習20 手順の再利用 | `learning-log-a.txt`、`learning-log-b.txt`、`learning-review-rules.txt` | `review-a-request.txt`、`review-procedure-request.txt`、`review-procedure-correction.txt`、`review-b-request.txt` |
-| 演習21 学習の復習 | `study-notes.txt` | `study-request.txt`、`study-correction.txt` |
+| 演習03 編集ルール | `sample-writing.txt`、`new-note.txt` | `voice-request.txt`、`voice-correction.txt` |
+| 演習13 体験文 | `experience.txt` | `article-request.txt`、`article-correction.txt` |
+| 演習13 長い記事（任意） | `experience.txt` | `article-long-request.txt` |
+| 演習23 強みと次の行動 | `personal-evidence.txt` | `strengths-request.txt`、`strengths-correction.txt` |
+| 演習06 収納用品の比較 | `household-conditions.txt`、`shelves.csv` | `shelf-request.txt`、`shelf-correction.txt` |
+| 演習09 作品紹介ページ | `works.txt` | `gallery-request.txt`、`gallery-correction.txt` |
+| 演習21 手順の再利用 | `learning-log-a.txt`、`learning-log-b.txt`、`learning-review-rules.txt` | `review-a-request.txt`、`review-procedure-request.txt`、`review-procedure-correction.txt`、`review-b-request.txt` |
+| 演習22 学習の復習 | `study-notes.txt` | `study-request.txt`、`study-correction.txt` |
 
 
 入力は`input/`、依頼は`prompts/`にあります。短い体験文と強みの依頼には、本文と同じ架空の材料が含まれています。七つの追加練習はそれぞれ独立して試せます。見本と意図的な誤り例は`answer-key/personal-practice/`にあり、AIへ渡す作業場所には含めません。
