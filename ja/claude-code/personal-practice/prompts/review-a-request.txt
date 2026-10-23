@@ -1,4 +1,3 @@
 input/learning-review-rules.txtの手順でinput/learning-log-a.txtを整理し、
-output/review-a.txtへ新規保存してください。
-outputがなければ作成します。
+output/review-a.txtへ新規保存してください。outputがなければ作成します。
 保存先と内容を会話にも表示し、手順に反する操作はしないでください。

@@ -4,4 +4,4 @@
 
 ## 2026-10-16 週明けリストのスキル練習
 
-翌週入力は `input/next-week-close.txt`、作成依頼は `friday-skill-create.txt`、翌週への適用依頼は `friday-list-next-request.txt` です。Codex版の依頼は `ja/codex/` 内の `cross-role/prompts/` にあります。Claude Code版の配布内容・実機確認は別途確認してください。`monday-next.txt` と `next-week-list-skill.txt` は著者作成の確認用見本で、製品の実行結果ではありません。スキル案はテキストとして保管し、自動登録しません。作成・登録・呼び出し・更新後の再利用は実機未確認です。
+翌週入力は `input/next-week-close.txt`、作成依頼は `friday-skill-create.txt`、翌週への適用依頼は `friday-list-next-request.txt` です。依頼は各版の `cross-role/prompts/` にあります（Codex版は演習20、Claude Code版は演習18）。2026年10月23日に両版の入力・依頼・見本の一致を確認しました。アプリでの実行確認は行っていません。`monday-next.txt` と `next-week-list-skill.txt` は著者作成の確認用見本で、製品の実行結果ではありません。スキル案はテキストとして保管し、自動登録しません。作成・登録・呼び出し・更新後の再利用は実機未確認です。

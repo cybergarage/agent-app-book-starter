@@ -15,7 +15,7 @@ GitHubのページで **Code → Download ZIP** を選び、ZIPファイルを�
 
 ## 版ごとの演習の入口
 
-Codex版は追加演習を含む24演習です。[Codex版の一覧](codex/README.md)を使ってください。以下の22演習の表はClaude Code版の案内です。両版の演習番号は一致しません。
+Codex版は追加演習を含む24演習です。[Codex版の一覧](codex/README.md)を使ってください。以下の22演習の表はClaude Code版の案内です。保存先・前提演習・戻し方は[Claude Code版の一覧](claude-code/README.md)を参照してください。両版の演習番号は一致しません。
 
 ### Claude Code版の演習
 
@@ -40,7 +40,7 @@ Codex版は追加演習を含む24演習です。[Codex版の一覧](codex/READM
 | 演習15 企画書の骨子 | `{版}/cross-role/` | `prompts/research-plan-request.txt` |
 | 演習16 スライド案 | `{版}/cross-role/` | `prompts/slide-story-request.txt` |
 | 演習17 作業メモの一覧化 | 本文のメモ | 本文の依頼 |
-| 演習18 週明けリスト | `{版}/cross-role/` | `prompts/friday-list-request.txt` |
+| 演習18 週明けリスト | `{版}/cross-role/` | `prompts/friday-list-request.txt`、`prompts/friday-skill-create.txt`、`prompts/friday-list-next-request.txt` |
 | 演習19 朝の確認メモ | `{版}/cross-role/` | `prompts/daily-briefing-request.txt` |
 | 演習20 週次振り返り | `{版}/weekly-report/` | `prompts/weekly-review-request.txt` |
 | 演習21 学習課題 | `{版}/cross-role/` | `prompts/career-learning-request.txt` |

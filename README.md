@@ -15,4 +15,4 @@ Each book can be used on its own. The practice data is fictional. The answer key
 
 ## 教材の版
 
-2026年10月23日：Codex版を24演習に合わせて整備しました。[Codex版の演習一覧](ja/codex/README.md)を参照してください。共通の確認用見本も、このCodex教材との照合に使えます。Claude Code版の配布ファイルは今回更新していません。両版の演習番号は一致しないため、各版の案内を確認してください。教材の整備は、アプリの全操作を実機確認したことを意味しません。
+2026年10月23日：Codex版を24演習に合わせて整備しました。[Codex版の演習一覧](ja/codex/README.md)を参照してください。Claude Code版も22演習に合わせて整備しました。[Claude Code版の演習一覧](ja/claude-code/README.md)を参照してください。共通の確認用見本は両版の入力資料と照合しました。両版の演習番号は一致しないため、各版の案内を確認してください。教材の整備は、アプリの全操作を実機確認したことを意味しません。
