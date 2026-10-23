@@ -11,54 +11,59 @@
 
 GitHubのページで **Code → Download ZIP** を選び、ZIPファイルを展開してください。使用する本のフォルダだけを作業場所として選びます。コマンド入力やGitの操作は不要です。
 
-各版には`personal-practice/`と、業務用の`weekly-report/`、`choice-memo/`、`meeting-followup/`、`cross-role/`があります。入力資料、依頼文、出力先の`output/`を用意し、業務用フォルダには継続する仕事のルールも置いています。取得後にフォルダを作ったり資料をコピーしたりする必要はありません。まず該当する製品別READMEを読んでください。
+各版には`personal-practice/`と、業務用の`weekly-report/`、`choice-memo/`、`meeting-followup/`、`cross-role/`があります。入力資料、依頼文、出力先の`output/`を用意し、業務用フォルダには継続する仕事のルールも置いています。配布教材を使う演習では、取得後に入力資料や出力フォルダを作る必要はありません。本文だけの入門演習では、本文で指定された空の練習フォルダを用意します。まず該当する製品別READMEを読んでください。
 
-## 演習の入口
+## 版ごとの演習の入口
 
-読んでいる本に合わせ、以下の`{版}`を`codex`または`claude-code`に置き換えてください。各演習は新しい会話で始め、依頼文を入力します。本文のメモで試す演習は、まず回答を会話で確かめます。配布教材を使う応用演習の成果物は、選んだ作業フォルダの`output/`に保存します。
+Codex版は追加演習を含む24演習です。[Codex版の一覧](codex/README.md)を使ってください。以下の22演習の表はClaude Code版の案内です。両版の演習番号は一致しません。
+
+### Claude Code版の演習
+
+以下の`{版}`は`claude-code`です。各演習は新しい会話で始め、依頼文を入力します。本文のメモで試す演習は、まず回答を会話で確かめます。配布教材を使う応用演習の成果物は、選んだ作業フォルダの`output/`に保存します。
 
 | 演習 | 作業場所・入力 | 依頼文 |
 | --- | --- | --- |
 | 演習01 会議案内 | 本文のメモ | 本文の依頼 |
-| 演習02 仕事のメモから依頼文を組み立てる | 本文のメモ | 本文の依頼 |
-| 演習03 資料とルールの保存 | 本文のメモ・専用の練習フォルダ | 本文の依頼 |
-| 演習04 活動メモの要約 | 本文のメモ | 本文の依頼 |
-| 演習05 週次報告 | `{版}/weekly-report/` | `prompts/request-week-1.txt`、`prompts/request-week-2.txt` |
-| 演習06 比較メモ | `{版}/choice-memo/` | `prompts/request.txt` |
-| 演習07 アイデア3案 | 本文のメモ | 本文の依頼 |
-| 演習08 商品企画 | `{版}/cross-role/` | `prompts/product-concept-request.txt` |
-| 演習09 説明サイト | `{版}/cross-role/` | `prompts/explanation-site-request.txt` |
-| 演習10 一通の返信 | 本文のメモ | 本文の依頼 |
-| 演習11 会議後の対応表 | `{版}/meeting-followup/` | `prompts/request.txt` |
-| 演習12 複数メールの返信・保留 | `{版}/cross-role/` | `prompts/email-reply-request.txt` |
-| 演習13 専門説明の書き直し | 本文のメモ | 本文の依頼 |
-| 演習14 顧客向け提案 | `{版}/cross-role/` | `prompts/technical-proposal-request.txt` |
-| 演習15 要件メモ | `{版}/cross-role/` | `prompts/customer-requirements-request.txt` |
-| 演習16 企画書の骨子 | `{版}/cross-role/` | `prompts/research-plan-request.txt` |
-| 演習17 スライド案 | `{版}/cross-role/` | `prompts/slide-story-request.txt` |
-| 演習18 作業メモの一覧化 | 本文のメモ | 本文の依頼 |
-| 演習19 週明けリスト | `{版}/cross-role/` | `prompts/friday-list-request.txt` |
-| 演習20 朝の確認メモ | `{版}/cross-role/` | `prompts/daily-briefing-request.txt` |
-| 演習21 週次振り返り | `{版}/weekly-report/` | `prompts/weekly-review-request.txt` |
-| 演習22 学習課題 | `{版}/cross-role/` | `prompts/career-learning-request.txt` |
-| 演習23 強みの棚卸し | `{版}/cross-role/` | `prompts/strengths-inventory-request.txt` |
+| 演習02 資料とルールの保存 | 本文のメモ・専用の練習フォルダ | 本文の依頼 |
+| 演習03 活動メモの要約 | 本文のメモ | 本文の依頼 |
+| 演習04 週次報告 | `{版}/weekly-report/` | `prompts/request-week-1.txt`、`prompts/request-week-2.txt` |
+| 演習05 比較メモ | `{版}/choice-memo/` | `prompts/request.txt` |
+| 演習06 アイデア3案 | 本文のメモ | 本文の依頼 |
+| 演習07 商品企画 | `{版}/cross-role/` | `prompts/product-concept-request.txt` |
+| 演習08 説明サイト | `{版}/cross-role/` | `prompts/explanation-site-request.txt` |
+| 演習09 一通の返信 | 本文のメモ | 本文の依頼 |
+| 演習10 会議後の対応表 | `{版}/meeting-followup/` | `prompts/request.txt` |
+| 演習11 複数メールの返信・保留 | `{版}/cross-role/` | `prompts/email-reply-request.txt` |
+| 演習12 専門説明の書き直し | 本文のメモ | 本文の依頼 |
+| 演習13 顧客向け提案 | `{版}/cross-role/` | `prompts/technical-proposal-request.txt` |
+| 演習14 要件メモ | `{版}/cross-role/` | `prompts/customer-requirements-request.txt` |
+| 演習15 企画書の骨子 | `{版}/cross-role/` | `prompts/research-plan-request.txt` |
+| 演習16 スライド案 | `{版}/cross-role/` | `prompts/slide-story-request.txt` |
+| 演習17 作業メモの一覧化 | 本文のメモ | 本文の依頼 |
+| 演習18 週明けリスト | `{版}/cross-role/` | `prompts/friday-list-request.txt` |
+| 演習19 朝の確認メモ | `{版}/cross-role/` | `prompts/daily-briefing-request.txt` |
+| 演習20 週次振り返り | `{版}/weekly-report/` | `prompts/weekly-review-request.txt` |
+| 演習21 学習課題 | `{版}/cross-role/` | `prompts/career-learning-request.txt` |
+| 演習22 強みの棚卸し | `{版}/cross-role/` | `prompts/strengths-inventory-request.txt` |
 
-演習09は08の企画案、演習17は16の骨子、演習21は05の二週分の報告を使います。先に対応する演習を済ませてください。入門3件と基本5件は教材取得なしで進められます。
+演習08は07の企画案、演習16は15の骨子、演習20は04の二週分の報告を使います。先に対応する演習を済ませてください。入門2件と基本5件は教材取得なしで進められます。
 
 ## 個人の文章・制作記録で試す追加練習
+
+以下の演習番号はClaude Code版です。Codex版の対応番号は[Codex版の案内](codex/README.md#個人向けの追加練習)を参照してください。
 
 任意の追加練習です。文章と語学復習は本文の短い入力でも試せます。収納比較、作品紹介、手順再利用は配布教材を使います。ファイル保存と再利用まで試す場合は、業務フォルダとは別に`{版}/personal-practice/`を選んでください。
 
 | 本文の位置 | 入力 | 依頼文 |
 | --- | --- | --- |
-| 演習03 編集ルール | `sample-writing.txt`、`new-note.txt` | `voice-request.txt`、`voice-correction.txt` |
-| 演習13 体験文 | `experience.txt` | `article-request.txt`、`article-correction.txt` |
-| 演習13 長い記事（任意） | `experience.txt` | `article-long-request.txt` |
-| 演習23 強みと次の行動 | `personal-evidence.txt` | `strengths-request.txt`、`strengths-correction.txt` |
-| 演習06 収納用品の比較 | `household-conditions.txt`、`shelves.csv` | `shelf-request.txt`、`shelf-correction.txt` |
-| 演習09 作品紹介ページ | `works.txt` | `gallery-request.txt`、`gallery-correction.txt` |
-| 演習21 手順の再利用 | `learning-log-a.txt`、`learning-log-b.txt`、`learning-review-rules.txt` | `review-a-request.txt`、`review-procedure-request.txt`、`review-procedure-correction.txt`、`review-b-request.txt` |
-| 演習22 学習の復習 | `study-notes.txt` | `study-request.txt`、`study-correction.txt` |
+| 演習02 編集ルール | `sample-writing.txt`、`new-note.txt` | `voice-request.txt`、`voice-correction.txt` |
+| 演習12 体験文 | `experience.txt` | `article-request.txt`、`article-correction.txt` |
+| 演習12 長い記事（任意） | `experience.txt` | `article-long-request.txt` |
+| 演習22 強みと次の行動 | `personal-evidence.txt` | `strengths-request.txt`、`strengths-correction.txt` |
+| 演習05 収納用品の比較 | `household-conditions.txt`、`shelves.csv` | `shelf-request.txt`、`shelf-correction.txt` |
+| 演習08 作品紹介ページ | `works.txt` | `gallery-request.txt`、`gallery-correction.txt` |
+| 演習20 手順の再利用 | `learning-log-a.txt`、`learning-log-b.txt`、`learning-review-rules.txt` | `review-a-request.txt`、`review-procedure-request.txt`、`review-procedure-correction.txt`、`review-b-request.txt` |
+| 演習21 学習の復習 | `study-notes.txt` | `study-request.txt`、`study-correction.txt` |
 
 
 入力は`input/`、依頼は`prompts/`にあります。短い体験文と強みの依頼には、本文と同じ架空の材料が含まれています。七つの追加練習はそれぞれ独立して試せます。見本と意図的な誤り例は`answer-key/personal-practice/`にあり、AIへ渡す作業場所には含めません。

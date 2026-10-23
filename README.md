@@ -12,3 +12,7 @@ Codex版とClaude Code版の書籍で使う練習ファイルです。現在利�
 Each book can be used on its own. The practice data is fictional. The answer key is outside each AI working folder. Readers can choose **Code → Download ZIP** on GitHub; no terminal or Git commands are needed.
 
 各冊は単独で使えます。データは架空のものです。完成見本はAIへ指定する作業フォルダの外にあります。GitHubの **Code → Download ZIP** から取得でき、ターミナルやGitの操作は必要ありません。
+
+## 教材の版
+
+2026年10月23日：Codex版を24演習に合わせて整備しました。[Codex版の演習一覧](ja/codex/README.md)を参照してください。共通の確認用見本も、このCodex教材との照合に使えます。Claude Code版の配布ファイルは今回更新していません。両版の演習番号は一致しないため、各版の案内を確認してください。教材の整備は、アプリの全操作を実機確認したことを意味しません。
