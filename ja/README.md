@@ -9,9 +9,9 @@
 
 ## ダウンロード
 
-GitHubのページで **Code → Download ZIP** を選び、ZIPファイルを展開してください。使用する本のフォルダだけを作業場所として選びます。コマンド入力やGitの操作は不要です。
+GitHubのページで **Code → Download ZIP** を選び、ZIPファイルを展開してください。製品別のフォルダを開き、演習で指定されたフォルダ一つを作業場所として選びます。コマンド入力やGitの操作は不要です。
 
-各版には`personal-practice/`と、業務用の`weekly-report/`、`choice-memo/`、`meeting-followup/`、`cross-role/`があります。入力資料、依頼文、出力先の`output/`を用意し、業務用フォルダには継続する仕事のルールも置いています。配布教材を使う演習では、取得後に入力資料や出力フォルダを作る必要はありません。本文だけの入門演習では、本文で指定された空の練習フォルダを用意します。まず該当する製品別READMEを読んでください。
+各版には`personal-practice/`と、業務用の`weekly-report/`、`choice-memo/`、`meeting-followup/`、`cross-role/`があります。入力資料、依頼文、出力先の`output/`を用意し、業務用フォルダには継続する仕事のルールも置いています。配布教材を使う演習では、取得後に入力資料や出力フォルダを作る必要はありません。最初の会議案内は教材の取得前に試せます。以降、本文のメモを使う演習では `basic-practice/` または `announcement-rules/` を選びます。まず該当する製品別READMEを読んでください。
 
 ## 版ごとの演習の入口
 
@@ -24,22 +24,22 @@ Codex版は追加演習を含む24演習です。[Codex版の一覧](codex/READM
 | 演習 | 作業場所・入力 | 依頼文 |
 | --- | --- | --- |
 | 演習01 会議案内 | 本文のメモ | 本文の依頼 |
-| 演習02 資料とルールの保存 | 本文のメモ・専用の練習フォルダ | 本文の依頼 |
-| 演習03 活動メモの要約 | 本文のメモ | 本文の依頼 |
+| 演習02 資料とルールの保存 | `{版}/announcement-rules/` と本文のメモ | 本文の依頼 |
+| 演習03 活動メモの要約 | `{版}/basic-practice/` と本文のメモ | 本文の依頼 |
 | 演習04 週次報告 | `{版}/weekly-report/` | `prompts/request-week-1.txt`、`prompts/request-week-2.txt` |
 | 演習05 比較メモ | `{版}/choice-memo/` | `prompts/request.txt` |
-| 演習06 アイデア3案 | 本文のメモ | 本文の依頼 |
+| 演習06 アイデア3案 | `{版}/basic-practice/` と本文のメモ | 本文の依頼 |
 | 演習07 商品企画 | `{版}/cross-role/` | `prompts/product-concept-request.txt` |
 | 演習08 説明サイト | `{版}/cross-role/` | `prompts/explanation-site-request.txt` |
-| 演習09 一通の返信 | 本文のメモ | 本文の依頼 |
+| 演習09 一通の返信 | `{版}/basic-practice/` と本文のメモ | 本文の依頼 |
 | 演習10 会議後の対応表 | `{版}/meeting-followup/` | `prompts/request.txt` |
 | 演習11 複数メールの返信・保留 | `{版}/cross-role/` | `prompts/email-reply-request.txt` |
-| 演習12 専門説明の書き直し | 本文のメモ | 本文の依頼 |
+| 演習12 専門説明の書き直し | `{版}/basic-practice/` と本文のメモ | 本文の依頼 |
 | 演習13 顧客向け提案 | `{版}/cross-role/` | `prompts/technical-proposal-request.txt` |
 | 演習14 要件メモ | `{版}/cross-role/` | `prompts/customer-requirements-request.txt` |
 | 演習15 企画書の骨子 | `{版}/cross-role/` | `prompts/research-plan-request.txt` |
 | 演習16 スライド案 | `{版}/cross-role/` | `prompts/slide-story-request.txt` |
-| 演習17 作業メモの一覧化 | 本文のメモ | 本文の依頼 |
+| 演習17 作業メモの一覧化 | `{版}/basic-practice/` と本文のメモ | 本文の依頼 |
 | 演習18 週明けリスト | `{版}/cross-role/` | `prompts/friday-list-request.txt`、`prompts/friday-skill-create.txt`、`prompts/friday-list-next-request.txt` |
 | 演習19 朝の確認メモ | `{版}/cross-role/` | `prompts/daily-briefing-request.txt` |
 | 演習20 週次振り返り | `{版}/weekly-report/` | `prompts/weekly-review-request.txt` |

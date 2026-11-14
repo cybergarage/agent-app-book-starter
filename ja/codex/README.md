@@ -4,11 +4,11 @@
 
 ## 始め方
 
-GitHubで **Code → Download ZIP** を選んで展開し、`ja/codex/`を開きます。以下の表で指定する業務フォルダ一つを、CodexのローカルProjectの主フォルダに選びます。リポジトリ全体や`ja/`を作業場所にせず、確認用見本の`ja/answer-key/`を作業場所に含めません。コマンド入力やGit操作は不要です。
+GitHubで **Code → Download ZIP** を選んで展開し、`ja/codex/`を開きます。以下の表で指定する作業フォルダ一つを、CodexのローカルProjectの主フォルダに選びます。リポジトリ全体や`ja/`を作業場所にせず、確認用見本の`ja/answer-key/`を作業場所に含めません。コマンド入力やGit操作は不要です。
 
 `input/`は資料、`prompts/`は依頼文、`output/`は保存先です。`output/`が空に見えるのは正常です。依頼文を開いて読み、新しいチャットへ貼り付けます。計画を確認する依頼では、入力と保存先を読んでから作成を頼みます。保存後はファイルを開き、元資料と照合してください。
 
-本文だけの演習01・02・05・08・11・14・19は、Projectに属さない新しいチャットで始めます。演習03は空の「案内ルール練習」フォルダでProjectを作り、演習04も同じProjectを使います。この二つの資料と指示は本文に沿って作るため、完成済みのAGENTS.mdを配布しません。
+最初の会議案内（演習01）は教材の取得前に試せます。以降、本文のメモを使う演習は、表で指定する `basic-practice/` または `announcement-rules/` を作業場所にします。どちらにも練習用の資料や指示ファイルは入っていません。会議案内の資料と `AGENTS.md` は演習で `announcement-rules/` に作成します。
 
 ## 24演習の入口
 
@@ -16,25 +16,25 @@ GitHubで **Code → Download ZIP** を選んで展開し、`ja/codex/`を開き
 
 | 演習 | 作業場所 | 依頼文 | 確認する成果物 |
 | --- | --- | --- | --- |
-| 演習01 短い会議案内で依頼の工夫を試す | 本文 | 本文 | 会話の案内 |
-| 演習02 仕事のメモから依頼文を組み立てる | 本文 | 本文 | 会話の依頼文 |
-| 演習03 会議案内の資料とルールを残す | 案内ルール練習 | 本文 | AGENTS.md・meeting-note.txt |
-| 演習04 確認した会議情報を残し、別の会話で続ける | 案内ルール練習 | 本文 | meeting-state.mdと再開後の案内 |
-| 演習05 活動メモを3項目にまとめる | 本文 | 本文 | 会話の3項目要約 |
+| 演習01 短い会議案内で依頼の工夫を試す | 教材不要 | 本文 | 会話の案内 |
+| 演習02 仕事のメモから依頼文を組み立てる | basic-practice | 本文 | 会話の依頼文 |
+| 演習03 会議案内の資料とルールを残す | announcement-rules | 本文 | AGENTS.md・meeting-note.txt |
+| 演習04 確認した会議情報を残し、別の会話で続ける | announcement-rules | 本文 | meeting-state.mdと再開後の案内 |
+| 演習05 活動メモを3項目にまとめる | basic-practice | 本文 | 会話の3項目要約 |
 | 演習06 週次報告から次の打ち手を考える | weekly-report | request-week-1.txt / request-week-2.txt | week-1-report.txt / week-2-report.txt |
 | 演習07 比較資料から選定条件を示す | choice-memo | request.txt | choice-memo.txt |
-| 演習08 困りごとからアイデアを3案出す | 本文 | 本文 | 会話の3案 |
+| 演習08 困りごとからアイデアを3案出す | basic-practice | 本文 | 会話の3案 |
 | 演習09 顧客の声から新商品を企画する | cross-role | product-concept-request.txt | product-concept.txt |
 | 演習10 企画を説明する小さなサイトを作る | cross-role | explanation-site-request.txt | site/index.html |
-| 演習11 一通のメールに返信下書きを作る | 本文 | 本文 | 会話の返信下書き |
+| 演習11 一通のメールに返信下書きを作る | basic-practice | 本文 | 会話の返信下書き |
 | 演習12 会議メモを実行タスクに変える | meeting-followup | request.txt | followup.txt |
 | 演習13 受信メールから返信案を用意する | cross-role | email-reply-request.txt | reply-drafts.txt |
-| 演習14 専門的な説明を相手に合わせて書き直す | 本文 | 本文 | 会話の書き直し |
+| 演習14 専門的な説明を相手に合わせて書き直す | basic-practice | 本文 | 会話の書き直し |
 | 演習15 技術資料を顧客向け提案に変える | cross-role | technical-proposal-request.txt | customer-proposal.txt |
 | 演習16 顧客の要望を技術チームへ渡す | cross-role | customer-requirements-request.txt | requirements-note.txt |
 | 演習17 調査資料から企画書の骨子を作る | cross-role | research-plan-request.txt | plan-outline.txt |
 | 演習18 提案を説明する筋道を作る | cross-role | slide-story-request.txt | slide-story.txt |
-| 演習19 作業メモをやること一覧にする | 本文 | 本文 | 会話の作業一覧 |
+| 演習19 作業メモをやること一覧にする | basic-practice | 本文 | 会話の作業一覧 |
 | 演習20 週明けリストを作り、次回も使える手順にする | cross-role | friday-list-request.txt / friday-skill-create.txt / friday-list-next-request.txt | monday-start.txt / monday-next.txtとスキル |
 | 演習21 毎朝の確認事項をまとめる | cross-role | daily-briefing-request.txt | daily-briefing.txt |
 | 演習22 一週間の進捗を振り返る | weekly-report | weekly-review-request.txt | weekly-review.txt |
